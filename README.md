@@ -1,2 +1,2 @@
-# Python.DAL-Python.ORM
-Python DB
+# Python.DB
+Python.DAL or Python.ORM
