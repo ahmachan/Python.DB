@@ -6,7 +6,7 @@ last_rowid = self.cursor.lastrowid
 
 2.移动游标
 self.cursor.scroll(1, mode='relative')  # 相对当前位置移动,向下移动一行
-self.scroll(2, mode='absolute')  # 相对绝对位置移动
+self.cursor.scroll(2, mode='absolute')  # 相对绝对位置移动
 
 3.为防止SQL注入,应使用参数化sql语句，避免拼接
 
